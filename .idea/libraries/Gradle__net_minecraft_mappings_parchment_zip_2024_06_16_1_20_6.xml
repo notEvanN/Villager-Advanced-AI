@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraft:mappings_parchment:zip:2024.06.16-1.20.6" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.minecraft" artifactId="mappings_parchment" version="2024.06.16-1.20.6" baseVersion="2024.06.16-1.20.6" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/parchmentgradle/org/parchmentmc/data/parchment-1.20.6/2024.06.16/parchment-1.20.6-2024.06.16.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraftforge:forgespi:7.1.4" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.minecraftforge" artifactId="forgespi" version="7.1.4" baseVersion="7.1.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/7.1.4/6c8d92eeed576303f3e5095f53fd4b75242849fc/forgespi-7.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
