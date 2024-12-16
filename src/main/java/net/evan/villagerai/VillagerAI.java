@@ -1,6 +1,9 @@
 package net.evan.villagerai;
 
 import com.mojang.logging.LogUtils;
+import net.evan.villagerai.block.ModBlocks;
+import net.evan.villagerai.item.ModCreativeModTabs;
+import net.evan.villagerai.item.ModItems;
 import net.evan.villagerai.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,9 +31,15 @@ public class VillagerAI {
     {
         IEventBus modEventBus = context.getModEventBus();
 
-        modEventBus.addListener(this::commonSetup);
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+
+        modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -44,6 +53,10 @@ public class VillagerAI {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
+        }
     }
 
     @SubscribeEvent

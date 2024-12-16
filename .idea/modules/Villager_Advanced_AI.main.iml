@@ -3,7 +3,9 @@
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../build/sourcesSets/main" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../src/generated" />
+    <content url="file://$MODULE_DIR$/../../src/generated">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/generated/resources" type="java-resource" />
+    </content>
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />

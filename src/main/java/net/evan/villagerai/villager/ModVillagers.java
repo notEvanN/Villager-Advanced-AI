@@ -2,6 +2,7 @@ package net.evan.villagerai.villager;
 
 import com.google.common.collect.ImmutableSet;
 import net.evan.villagerai.VillagerAI;
+import net.evan.villagerai.block.ModBlocks;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
 import net.minecraft.world.entity.npc.VillagerProfession;
