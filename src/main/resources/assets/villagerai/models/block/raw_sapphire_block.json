@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "villagerai:block/raw_sapphire_block"
+  }
+}
