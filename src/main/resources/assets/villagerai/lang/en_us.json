@@ -4,6 +4,8 @@
 
   "block.villagerai.sapphire_block": "Block of Sapphire",
   "block.villagerai.raw_sapphire_block": "Raw Sapphire",
+  "block.villagerai.sapphire_ore": "Sapphire Ore",
+  "block.villagerai.deepslate_sapphire_ore": "DeepSlate Sapphire Ore",
 
   "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
 }
