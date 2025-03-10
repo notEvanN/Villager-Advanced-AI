@@ -32,10 +32,11 @@ public class ModBlocks {
                             .strength(2f)
                             .requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
-            () -> new DropExperienceBlock(UniformInt.of(3, 6),
+            () -> new DropExperienceBlock(UniformInt.of(3, 8),
                     BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE)
                             .strength(2f)
                             .requiresCorrectToolForDrops()));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
