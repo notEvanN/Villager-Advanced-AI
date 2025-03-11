@@ -43,9 +43,6 @@ We welcome contributions! To contribute:
 4. Push to the branch (`git push origin feature-new-ai`).
 5. Open a Pull Request.
 
-## Issues & Support
-If you encounter bugs or have suggestions, please report them in the [Issues](https://github.com/your-repo/issues) section.
-
 ## License
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
